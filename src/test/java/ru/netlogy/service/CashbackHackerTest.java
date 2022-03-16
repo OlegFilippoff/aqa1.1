@@ -2,8 +2,6 @@ package ru.netlogy.service;
 
 
 import org.junit.Test;
-import org.junit.platform.commons.annotation.Testable;
-
 import static org.junit.Assert.*;
 
 public class CashbackHackerTest {
@@ -58,6 +56,4 @@ public class CashbackHackerTest {
         int actual = service.remain(-1);
         assertEquals(expected, actual);
     }
-
 }
-
